@@ -22,14 +22,14 @@ usermod -s /usr/bin/bash root
 cp -aT /etc/skel/ /root/
 chmod 700 /root
 ! id liveuser && useradd -m -p \"\" -g users -G 'adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel' -s /bin/bash liveuser
-git clone https://github.com/endeavouros-team/liveuser-desktop-settings.git
-cd liveuser-desktop-settings
+git clone https://github.com/ringo32/lxqt-liveuser-settings.git
+cd lxqt-liveuser-settings
 rm -R /home/liveuser/.config
 cp -R .config /home/liveuser/
 cp LICENSE /home/liveuser/
 chown -R liveuser:users /home/liveuser/.config
 cd .. 
-rm -R liveuser-desktop-settings
+rm -R lxqt-liveuser-settings
 chmod 755 /etc/sudoers.d
 mkdir -p /media
 chmod 755 /media
