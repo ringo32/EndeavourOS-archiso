@@ -1,17 +1,11 @@
-#
 # Additions from new archiso config files
 
 bind-tools
-#broadcom-wl
-darkhttpd
+arkhttpd
 edk2-shell
 grml-zsh-config
 irssi
-kitty-terminfo
-lftp
-lynx
-memtest86+
-nbd
+bd
 nmap
 nvme-cli
 rxvt-unicode-terminfo
@@ -19,7 +13,6 @@ sudo
 syslinux
 systemd-resolvconf
 terminus-font
-termite-terminfo
 vim
 mkinitcpio-archiso
 
@@ -85,7 +78,7 @@ xf86-video-fbdev
 xf86-video-intel
 #xf86-video-nouveau
 nvidia-installer-dkms
-nvidia
+nvidia-dkms
 nvidia-utils
 nvidia-settings
 
@@ -97,59 +90,51 @@ dkms
 linux-firmware
 
 # loginmanager.packages
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
-# now needed for lightdm in some cases
-accountsservice
+sddm
 
 # default.desktop.endeavouros
-xfce4
-#xfce4-goodies
-# goodies selection 
-mousepad	
-orage	
-parole
-ristretto
-thunar-archive-plugin
-thunar-media-tags-plugin		
-xfce4-battery-plugin	
-xfce4-datetime-plugin			
-xfce4-mount-plugin	
-xfce4-netload-plugin	
-xfce4-notifyd	
-xfce4-pulseaudio-plugin
-xfce4-screensaver
-xfce4-screenshooter
-xfce4-taskmanager
-xfce4-wavelan-plugin	
-xfce4-weather-plugin	
-xfce4-whiskermenu-plugin
-xfce4-xkb-plugin
+lxqt-about
+lxqt-admin
+lxqt-archiver
+lxqt-config
+lxqt-globalkeys
+lxqt-notificationd
+lxqt-openssh-askpass
+lxqt-panel
+lxqt-policykit
+lxqt-powermanagement
+lxqt-qtplugin
+lxqt-runner
+lxqt-session
+lxqt-sudo
+lxqt-themes
 neofetch
+smplayer
+
 
 # theme.xfce4.endeavouros
+kvantum-qt5
+kvantum-theme-materia
 endeavouros-theming
 arc-x-icons-theme
 capitaine-cursors
 arc-gtk-theme
 gtk-engine-murrine
+gtk-engines
 gnome-themes-extra
 adwaita-icon-theme
 grub2-theme-endeavouros
 endeavouros-xfce4-terminal-colors
-
+materia-gtk-theme
+xcompmgr
 # extra.desktop.packages
-xed
-epdfview
-dconf-editor
-file-roller
-libwnck3
-network-manager-applet
-transmission-gtk
-galculator
+qpdfview
+speedcrunch
 
 # default.bowser.endeavour
-firefox
+falkon
+trojita
+
 # fonts
 ttf-dejavu
 ttf-liberation
@@ -177,11 +162,10 @@ nilfs-utils
 mlocate
 gvfs
 gvfs-afc
-gvfs-goa
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
-gvfs-smb
+
 
 # installation.packages
 arch-install-scripts
@@ -265,7 +249,6 @@ calamares_current
 lsb-release
 libpwquality
 cmake
-qt5ct
 qt5-svg
 qt5-webengine
 yaml-cpp
@@ -363,7 +346,7 @@ virtualbox-guest-utils
 open-vm-tools
 xf86-input-vmmouse
 xf86-video-vmware
-
+libvirt
 #screen tearing at ISO
 xcompmgr
 
