@@ -30,6 +30,12 @@ cp LICENSE /home/liveuser/
 chown -R liveuser:users /home/liveuser/.config
 cd .. 
 rm -R lxqt-liveuser-settings
+
+wget https://github.com/ringo32/lxqt-liveuser-settings/releases/download/02/sddm-config-editor-git-0.1.r57.gc01cbcd-1-x86_64.pkg.tar.zst
+wget https://github.com/ringo32/lxqt-liveuser-settings/releases/download/01/vpacman-1.4.3-1-any.pkg.tar.zst
+pacman -U sddm-config-editor-git-0.1.r57.gc01cbcd-1-x86_64.pkg.tar.zst --noconfirm
+pacman -U vpacman-1.4.3-1-any.pkg.tar.zst --noconfirm
+rm -R sddm-config-editor-git-0.1.r57.gc01cbcd-1-x86_64.pkg.tar.zst vpacman-1.4.3-1-any.pkg.tar.zst
 chmod 755 /etc/sudoers.d
 mkdir -p /media
 chmod 755 /media
