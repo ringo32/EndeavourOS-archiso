@@ -4,11 +4,11 @@
 
 set -e -u
 
-iso_name=endeavouros
+iso_name=endeavouros-lxqt
 iso_label="ENDEAVOUROS"
 iso_publisher="Arch Linux <http://www.archlinux.org>"
 iso_application="Arch Linux Live/Rescue CD"
-iso_version=$(date +%Y.%m.%d)
+iso_version=$(date +%y.%m.1)
 install_dir=arch
 work_dir=work
 out_dir=out
