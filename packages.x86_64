@@ -202,7 +202,7 @@ intel-ucode
 amd-ucode
 
 # for ssh
-gnome-keyring
+#gnome-keyring
 
 # network.packages
 #b43-firmware
