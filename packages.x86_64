@@ -126,7 +126,7 @@ adwaita-icon-theme
 grub2-theme-endeavouros
 endeavouros-xfce4-terminal-colors
 materia-gtk-theme
-xcompmgr
+
 # extra.desktop.packages
 qpdfview
 speedcrunch
@@ -315,7 +315,7 @@ pulseaudio-jack
 
 # developers.wishes
 htop 
-glances
+#glances
 rsync
 hardinfo
 bash-completion
