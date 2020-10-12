@@ -1,11 +1,10 @@
 # Additions from new archiso config files
 
 bind-tools
-arkhttpd
+darkhttpd
 edk2-shell
 grml-zsh-config
 irssi
-bd
 nmap
 nvme-cli
 rxvt-unicode-terminfo
