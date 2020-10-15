@@ -7,7 +7,6 @@ grml-zsh-config
 irssi
 nmap
 nvme-cli
-rxvt-unicode-terminfo
 sudo
 syslinux
 systemd-resolvconf
@@ -107,10 +106,11 @@ lxqt-runner
 lxqt-session
 lxqt-sudo
 lxqt-themes
+obconf-qt
 neofetch
 smplayer
 featherpad
-feathernote
+feathernotes
 
 # theme.xfce4.endeavouros
 kvantum-qt5
@@ -164,7 +164,7 @@ gvfs
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
-gvfs-nfs
+#gvfs-nfs
 
 
 # installation.packages
@@ -222,7 +222,7 @@ whois
 wireless_tools
 dhclient
 dnsmasq
-elinks
+#elinks
 ethtool
 openconnect
 openssh
@@ -233,7 +233,7 @@ wpa_supplicant
 wvdial
 gnu-netcat
 iwd
-linux-atm
+#linux-atm
 ndisc6
 ppp
 pptpclient
@@ -291,14 +291,14 @@ qt5-tools
 #pythonqt
 
 # liveiso.rescue-tools
-grsync
+#grsync
 ddrescue
 dd_rescue
 testdisk
-clonezilla
-partclone
-partimage
-gftp
+#clonezilla
+#partclone
+#partimage
+#gftp
 hdparm
 fsarchiver
 mc
